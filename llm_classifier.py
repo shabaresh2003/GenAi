@@ -2,7 +2,7 @@ import re
 from groq import Groq
 
 # Directly assign the API key (not recommended for production or version control)
-groq = Groq(api_key="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")
+groq = Groq(api_key="")
 
 def classify_with_llm(log_msg):
     """
